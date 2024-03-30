@@ -1,0 +1,193 @@
+.field_error{color:red;}
+
+.accordion .accordion__hide {
+    background: #f4f4f4;
+    height: 65px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+#social_share_box {
+	margin-top:20px;
+	width:150px;
+}
+
+#social_share_box img {
+	width:20%;
+	margin-left:10px;
+}
+
+.instamojo_error {
+	color:red;
+	font-size:15px;
+	line-height:1.5;
+	font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy_now {
+    margin-top: 20px;
+    background: #0063ec none repeat scroll 0 0;
+    width: calc(90% + 3px);
+    text-align: center;
+    font-size: 24px;
+}
+
+#multiple_images {
+	margin-top:10px;
+}
+
+#multiple_images img {
+	width:15%;
+}
+
+.review_heading {
+	font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#review .comment-rating {
+    color:#094e98da;
+	font-weight:bold;   
+}
+
+.submit_review_hint {
+	font-size:16px;
+	color:#094e98da;
+}
+
+.mt10 {
+	margin-top:10px;
+}
+
+#navbarSupportedContent .name-fix::first-letter {
+    text-transform: uppercase;
+}
+
+
+/* CSS 3D Model ------------------ */
+
+.big-image-3d {
+    position: relative;
+    margin-top: -22px;
+    height: 345px;
+}
+
+.off {
+    display: none;
+}
+
+#model3D {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#model3D model-viewer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: none;
+}
+
+#model3D .controls {
+    position: fixed; 
+    display: flex;
+    bottom: 24px; 
+    left: 24px;
+}
+
+#model3D .open-close {
+    width: 72px;
+    border: none;
+    background-color: #094f98d4;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.on-off {
+    font-size: 20px !important;
+    background-color: rgb(124, 140, 230) !important;
+}
+
+#model3D .full-screen {
+    display: none;
+    position: fixed; 
+    bottom: 4px; 
+    right: 4px;
+}
+
+#model3D:hover .full-screen {
+    display: block;
+}
+
+#model3D .full-screen:hover {    
+    margin-right: -4px;
+    margin-bottom: -4px;
+}
+
+#model3D .full-screen:hover .fullscreen {
+    font-size: 48px;
+}
+
+#model3D .fullscreen {
+    border: none;
+    background: none;
+    color: black;
+    padding: 4px 12px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fullscreen-fix {
+    position: fixed !important;
+    z-index: 3000000000;
+}
+
+#model3D .ar-button{
+    position: absolute; 
+    border: none; 
+    border-radius: 20px; 
+    background-color: rgb(171, 164, 248);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    bottom: 32px; 
+    right: 32px;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 12px 12px 52px;
+}
+
+#model3D .ar-button img {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    height: 40px;
+}
